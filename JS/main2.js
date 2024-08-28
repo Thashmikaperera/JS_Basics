@@ -103,9 +103,127 @@ const getName1 =function (name){
 
 getName1("Thashi");
 
-//-------------- Arrow Function ------------
+//-------------- Arrow Functions ------------
 const getAddress = (address) =>{
     console.log(address);
 } 
 
 getAddress("panadura");
+
+//---------------- Flow Controllers --------------------------
+var customer_age = 26;
+//logic Operators (<,>,==,<=,>=,&,|)
+
+//if else ladder
+if(customer_age > 26){
+    console.log("Age OK");
+}else if(customer_age == 26){
+    console.log("Age equal");
+}else{
+    console.log("Age not Ok");
+}
+
+console.log("end");
+
+
+var user_name = "Thashi@gmail.com";
+var password = "Thashi123";
+
+if(user_name == "Thashi@gmail.com" & password == "Thashi123"){
+    console.log("Loging Success");
+}else{
+    console.log("Loging UnSuccess");
+}
+
+//------------ Switch Case -------------------
+var j =2;
+
+switch(j){
+    case 1:
+        console.log("Output is 1");
+        break;
+    case 2:
+        console.log("Output is 2");
+        break;
+    case 3:
+        console.log("Output is 3");
+        break;  
+    default:
+        console.log("Default");
+}
+
+
+var m ="January";
+
+switch(m){
+    case "January":
+        console.log("Output is 1");
+        break;
+    case "February":
+        console.log("Output is 2");
+        break;
+    case "March":
+        console.log("Output is 3");
+        break;  
+    default:
+        console.log("Default");
+}
+
+//--------------------------
+function getAlert(){
+    alert("Hello Thashi");
+}
+
+getAlert();
+
+
+//---------------- Loops ----------------------
+
+//for loop
+for(var i=0; i<10; i++){
+    console.log("Hello Girl");
+}
+
+//while loop
+var r=10;
+
+while(r>5){
+    console.log("while loop");
+    r--;
+}
+
+//do while loop
+var t=10;
+do{
+    console.log("do while loop");
+    t--;
+}while(t>5);
+
+//------------- Arrays --------------
+const student =["Kasun","saman","Nimal","vimal"];
+console.log(student);
+console.log(student[0]);
+console.log(student.length);
+
+const marks = [10,50,30,55,12,36];
+var k=marks[2] + 10;
+console.log(k);
+
+for(var p=0; p< student.length;p++){
+    console.log(student[p]);
+}
+
+//-------------- for each loop -----------------
+for(var f in student){
+    console.log(f);
+}
+
+//-------------- OOP-Object Oriented Programming------------------
+const madushan = {
+    "name" : "Madushan",
+    "age" : 20,
+    "Address" : "Panadura",
+    "salary" : 200000
+}
+
+//----------------- JSON -----------------------
