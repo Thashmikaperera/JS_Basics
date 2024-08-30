@@ -16,16 +16,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="index.html" class="nav-link active" href="#">Home</a>
+                <a onclick="home()" class="nav-link active" >Home</a>
               </li>
               <li class="nav-item">
-                <a href="features.html" class="nav-link" href="#">Features</a>
+                <a onclick="features()" class="nav-link" >Features</a>
               </li>
               <li class="nav-item">
-                <a href="pricing.html" class="nav-link" href="#">Pricing</a>
+                <a onclick="pricing()" class="nav-link" >Pricing</a>
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link" aria-disabled="true">About me</a>
+                <a onclick="about()" class="nav-link" aria-disabled="true">About me</a>
               </li>
             </ul>
           </div>
@@ -38,7 +38,25 @@
     <button class="btn btn-success" onclick="btnClick()">Click me</button><br><br>
     <button onclick="seeGreet()">Click to see greet</button> -->
 
-    <h1>Home Page</h1>
+    <!-- home page content -->
+    <div id="home">
+        <h1>Home Page</h1>
+    </div>
+
+    <!-- Feature page content -->
+    <div id="features">
+        <h1>Feature Page</h1>
+    </div>
+
+    <!-- Pricing page content -->
+    <div id="pricing">
+        <h1>Pricing Page</h1>
+    </div>
+
+    <!-- About page content -->
+    <div id="about">
+        <h1>About Page</h1>
+    </div>
 
     <script src="JS/main3.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
