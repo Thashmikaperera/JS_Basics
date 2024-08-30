@@ -227,3 +227,14 @@ const madushan = {
 }
 
 //----------------- JSON -----------------------
+
+
+//--------- Event Handling and DOM Manipulation ------------
+function btnClick(){
+    var data = document.getElementById('userName').value
+    console.log(data);
+}
+
+function keyDown(){
+    console.log("btn down");
+}
